@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "font1"; 
+  src: url(../fonts/Joan-Regular.ttf);
+}
+@font-face {
+  font-family: "font2";
+  src: url(../fonts/SplineSansMono-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "font3";
+  src: url(../fonts/SplineSansMono-VariableFont_wght.ttf);
+}
+$font1: "font1", sans-serif;
+$font2:"font2" , sans-serif;
+$font3:"font3" , sans-serif;
+$color1: #afbec4;
+$color2: blue;
+$color3: rgb(34, 34, 108);
+$color4: #fff;
+$color5: #000;
+$color6: #3333;
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62%;
+}
+
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: $color2;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: $color1;
+}
+
+body {
+  background: $color3;
+  padding-left: 35rem;
+}
+
+section {
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.btn {
+  padding: 0.7rem 3rem;
+  background: $color3;
+  color: $color4;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-size: 2rem;
+  border-radius: 5rem ;
+}
+
+.btn i {
+  padding: 0 0.5rem;
+  font-size: 1.8rem;
+}
+
+.btn:hover {
+  background: $color1;
+}

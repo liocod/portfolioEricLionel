@@ -1,0 +1,184 @@
+
+
+.heading{
+    text-align: center;
+    margin:0 6rem;
+    font-size: 4rem;
+    padding:1rem;
+    border-bottom: .1rem solid blue;
+    color:#000;
+}
+
+.heading span{
+    color:var(--yellow);
+}
+
+
+
+
+
+/* .education .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:1rem 0;
+    padding-left: 3rem;
+}
+
+.education .box-container .box{
+    width:27rem;
+    margin:4rem 1rem;
+    padding-left: 4rem;
+    border-left: .2rem solid #fff;
+    position: relative;
+}
+
+.education .box-container .box span{
+    font-size: 1.3rem;
+    background:#fff;
+    color:rgb(29, 29, 118);
+    border-radius: 5rem;
+    padding:.5rem 2.5rem;
+}
+
+.education .box-container .box h3{
+    font-size: 2rem;
+    color:#000;
+    padding-top: 1.5rem;
+}
+
+.education .box-container .box p{
+    font-size: 1.4rem;
+    color:#000;
+    padding: 1rem 0;
+}
+
+.education .box-container .box i{
+    position: absolute;
+    top:-1.5rem; left:-2.5rem;
+    height:5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color:#000;
+    background:var(--yellow);
+} */
+
+
+
+
+.top{
+    position: fixed;
+    bottom:7.5rem; right: 2rem;
+    z-index: 100;
+    display: none;
+}
+  .home .share{
+    position: relative;
+     top: 10rem;
+    border-radius: .5rem;
+    padding:6rem;
+}
+
+.home .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    margin:.15rem;
+    font-size: 2rem;
+    color:var (--yellow);
+    border-radius: .5rem;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries  */
+
+@media (max-width:1200px){
+
+    html{
+        font-size: 55%;
+    }
+
+    .home{
+        padding:1rem 4rem;
+    }
+
+}
+
+@media (max-width:991px){
+
+   header{
+       left:-120%;
+   }
+
+   #menu{
+       display: block;
+   }
+
+   header.toggle{
+    left:0%;
+   }
+
+   body{
+       padding:0;
+   }
+
+}
+
+@media (max-width:768px){
+
+    html{
+        font-size: 50%;
+    }
+ 
+ }
+
+@media (max-width:400px){
+
+    header{
+        width: 100vw;
+    }
+
+    .heading{
+        margin:0 3rem;
+    }
+
+    .about .row .counter .box{
+        width: 100%;
+    }
+ 
+    .education .box-container .box{
+        width:100%;
+    }
+
+    .portfolio .box-container .box{
+        width:100%;
+    }
+
+    .contact .row form{
+        margin:3rem 0;
+    }
+
+ }
+ 

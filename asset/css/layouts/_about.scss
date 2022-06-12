@@ -1,0 +1,49 @@
+.about .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+
+.about .row .info {
+  flex: 1 1 48rem;
+  padding: 2rem 1rem;
+  padding-left: 6rem;
+}
+
+.about .row .info h3 {
+  font-size: 3.5rem;
+  font-weight: bolder;
+  color: $color4;
+  padding: 1rem 0;
+}
+
+.about .row .info h3 span {
+  color: $color1;
+  text-decoration: underline;
+  font-weight: bolder;
+  padding: 0 0.5rem;
+}
+
+.about .row .counter .box {
+  width: 30rem;
+  height: 70px;
+  background: $color1;
+  text-align: center;
+  padding: 1.3rem;
+  margin: 3.5rem;
+}
+.about .row .counter strong {
+  text-decoration: underline;
+  font-weight: bolder;
+  color: $color4;
+  font-size: 25px;
+}
+
+
+.about .row .counter .box h3 {
+  font-size: 2rem;
+  color: $color4;
+  font-style: italic;
+}

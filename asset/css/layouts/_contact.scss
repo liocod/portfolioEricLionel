@@ -1,0 +1,42 @@
+.contact .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact .row form {
+  flex: 1 1 45rem;
+}
+
+.contact .row form .box {
+  padding: 1.5rem;
+  margin: 1rem 0;
+  background: $color6;
+  color: $color1;
+  font-size: 1.7rem;
+  width: 88%;
+  border: none;
+  border-radius: 20px;
+}
+
+.contact .row form .box::placeholder {
+  text-transform: capitalize;
+  color: $color4;
+}
+
+.contact .row form .message {
+  height: 15rem;
+  resize: none;
+}
+
+.contact .row .content .info h3 {
+  align-items: center;
+  font-size: 3.3rem;
+  color: $color4;
+  padding: 1rem 0;
+}
+
+.contact .row .content .info h3 i {
+  color: $color1;
+}

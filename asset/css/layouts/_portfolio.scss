@@ -1,0 +1,30 @@
+.portfolio-item .card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16.4rem, 1fr));
+  gap: 4rem;
+}
+.portfolio-item .card-container .card {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  background: $color1;
+  // padding: 10px;
+  position: relative;
+}
+.portfolio-item .card-container .card h2 {
+  font-family: $font2;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: $color4;
+  text-decoration: underline;
+  margin-top: 5rem;
+}
+.portfolio-item .card-container .card p{
+  margin-top: 2rem;
+  font-size: 20px;
+  text-align: center;
+  color: $color4;
+  font-family: serif;
+}
+
